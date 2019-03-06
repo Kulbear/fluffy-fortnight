@@ -18,6 +18,6 @@ class Solution:
         sum -= root.val
         return self.hasPathSum(root.left, sum) or self.hasPathSum(root.right, sum)
 
-    # Solution 2 - Iterative
+    # TODO: Solution 2 - Iterative
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
         pass
