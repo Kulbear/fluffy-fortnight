@@ -24,6 +24,13 @@ class Solution:
 
         return prev
 
-    # TODO: Solution 2 - Recursive
+    # Solution 2 - Recursive
     def reverseList(self, head: ListNode) -> ListNode:
-        pass
+        if not head or not head.next:
+            return head
+
+        p = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+
+        return p
