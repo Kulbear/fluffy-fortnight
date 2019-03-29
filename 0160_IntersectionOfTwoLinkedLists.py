@@ -8,7 +8,7 @@ class Solution(object):
     # Solution 1 - Hash Table
     def getIntersectionNode(self, headA, headB):
         """
-        :type head1, head1: ListNode
+        :type headA, headB: ListNode
         :rtype: ListNode
         """
         p1, p2 = headA, headB
@@ -27,7 +27,7 @@ class Solution(object):
     # Solution 2 - Two Pointers
     def getIntersectionNode(self, headA, headB):
         """
-        :type head1, head1: ListNode
+        :type headA, headB: ListNode
         :rtype: ListNode
         """
         if not headA or not headB:
