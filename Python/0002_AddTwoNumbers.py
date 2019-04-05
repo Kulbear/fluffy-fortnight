@@ -4,6 +4,7 @@
 #         self.val = x
 #         self.next = None
 
+
 class Solution:
     # Solution 1 - Iterative Traversal
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:

@@ -35,7 +35,7 @@ class Solution
     }
 
     ListNode *mergeTwoListsRecursive(ListNode *l1, ListNode *l2)
-{
+    {
         if (l1 == NULL || l2 == NULL)
         {
             return l1 ? l1 : l2;
